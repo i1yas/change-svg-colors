@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.svg-preview-container {
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.svg-preview-container > * {
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 400px;
+
+    box-shadow: 0 0 0 10px rgb(110, 103, 94);
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url(./bg.svg);
+}
+
+
+.colors-container > * {
+    margin-bottom: 10px;
+}
+.color-item__color {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10em;
+    vertical-align: middle;
+}
+.color-item__name {
+    font-family: mono;
+    vertical-align: middle;
+}
